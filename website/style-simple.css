@@ -1,0 +1,224 @@
+/* ---------------The bg section---------------- */
+body{
+    background: rgb(25, 30, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 150px 0 150px;
+}
+
+/* ---------------The text section---------------- */
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+    justify-content: center;
+}
+
+h3{
+    margin: 0;
+}
+
+a{
+    color: aliceblue;
+}
+
+button{
+    cursor:pointer;
+}
+
+h5{
+    margin: 15px;
+    margin-left: 0;
+}
+/* ---------------The menu section---------------- */
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin: 0;
+    transition: 0.4s;
+}
+
+/* ---------------The button section---------------- */
+#home{
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: 0.4s;
+    padding: 10px 0 10px 0;
+    margin-bottom: 50px;
+}
+
+#aboutme{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: 0.4s;
+    padding: 10px 0 10px 0;
+    margin-bottom: 50px;
+}
+
+#products{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: 0.4s;
+    padding: 10px 0 10px 0;
+    margin-bottom: 50px;
+}
+
+#contact{
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: 0.4s;
+    padding: 10px 0 10px 0;
+    margin-bottom: 50px;
+}
+
+.readmore{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: 0.4s;
+    padding: 10px 0 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 53%);
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+/* ---------------The hover section---------------- */
+.readmore:hover{
+    background-color: aliceblue;
+}
+
+#home:hover{
+    background-color: aliceblue;
+}
+
+#aboutme:hover{
+    background-color: aliceblue;
+}
+
+#products:hover{
+    background-color: aliceblue;
+}
+
+#contact:hover{
+    background-color: aliceblue;
+}
+/* ---------------The centle section---------------- */
+.centle{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0;
+    height: 250px;
+    padding: 50px;
+    position: relative;
+}
+
+.imgcentle{
+    text-align: justify;
+    height: 350px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.gridcentle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+
+}
+
+/* ---------------The centre section---------------- */
+.centre{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-top: 25px;
+    height: 250px;
+    padding: 50px;
+    position: relative;
+}
+
+.imgcentre{
+    text-align: justify;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.gridcentre{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+
+}
+
+/* ---------------The footer section---------------- */
+footer{
+    font-size: 1rem;
+    background-color: rgb(20, 19, 19);
+    margin-top: 50px;
+    padding: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.footer{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.footerbutton{
+    margin: 5px;
+    margin-left: 0;
+    color: aliceblue;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: 0.4s;
+}.footerbutton:hover{
+    background-color: rgb(47, 48, 49);
+}
+
+.sm{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgba(240, 248, 255, 0);
+    padding: 0;
+    margin-right: 5px;
+}
